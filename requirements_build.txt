@@ -1,0 +1,12 @@
+# 序列帧特效预览器 - 打包依赖
+# 运行 pip install -r requirements_build.txt 安装所有依赖
+
+# 核心依赖
+Pillow>=9.0.0
+tkinterdnd2>=0.3.0
+
+# 打包工具
+PyInstaller>=5.0.0
+
+# 可选依赖 (用于EXE分析)
+# pefile>=2023.2.7  # 如果需要更详细的PE分析可以取消注释
